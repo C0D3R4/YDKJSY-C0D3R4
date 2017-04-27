@@ -1,3 +1,8 @@
+/* Closure is when a function "Remembers" its lexical scope even when the function is executed outside that lexical scope. */
+/* Scope stay around, as long the Closure go away.*/
+/* IIFE or Let for a callback inside a loop bevave badly  */
+/*   */
+
  function foo () {
       var bar = "bar";
 
@@ -13,9 +18,6 @@
 
  foo();
 
-
-/* Closure is when a function "Remembers" its lexical scope even when the function is executed outside that lexical scope. */
-/* Closure  */
 ------------------------------------------
 
 function foo () {
@@ -48,4 +50,4 @@ function foo() {
         }, 200);
     }, 100);
     }
-foo();  // 0 2 
+foo();  // 0 2
